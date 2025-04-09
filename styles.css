@@ -526,41 +526,6 @@ img {
     color: var(--white);
 }
 
-.about-text ul {
-    list-style: none;
-    counter-reset: list-counter;
-    padding-left: 0;
-    text-align: center;
-}
-
-.about-text ul li {
-    counter-increment: list-counter;
-    font-size: 14px;
-    font-weight: bold;
-    color:#ffcc00; /* Neon yellow */
-    background: rgba(0, 0, 0, 0.8); /* Dark transparent background */
-    border: 2px solid #00ff00; /* Neon border */
-    border-radius: 30px;
-    padding: 8px 15px;
-    margin: 15px 0;
-    position: relative;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 0 8px #ffcc00; /* Neon glow effect */
-}
-
-.about-text ul li::before {
-    
-    font-weight: bold;
-    color: #ffcc00; /* Neon yellow */
-}
-
-.about-text ul li:hover {
-    background: #ffcc00;
-    color: black;
-    box-shadow: 0 0 15px #ffcc00, 0 0 30px #ffcc00;
-}
-
 
 
 .about-text p {
