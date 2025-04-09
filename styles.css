@@ -534,7 +534,7 @@ img {
 
 .detail-item p {
     font-size: 1.6rem;
-    color: var(--gray-color);
+    color: white;
     word-break: break-word;
     margin: 0;
 }
