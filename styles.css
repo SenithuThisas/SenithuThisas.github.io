@@ -1379,7 +1379,7 @@ img {
     .hero-buttons,
     .about-buttons {
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1.7rem;
     }
     
     .btn {
