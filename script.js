@@ -32,7 +32,7 @@ hoverElements.forEach(el => {
     el.addEventListener('mouseleave', () => {
         cursor.style.transform = 'scale(1)';
         cursorFollower.style.transform = 'scale(1)';
-        cursor.style.boxShadow = '0 0 10px rgba(0, 255, 0, 0.5)';
+        cursor.style.boxShadow = '0 0 10px rgba(0, 255, 0, 0.9)';
     });
 });
 
