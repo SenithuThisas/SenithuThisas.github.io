@@ -90,7 +90,7 @@ body::before {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.2;
 }
 
@@ -349,7 +349,7 @@ img {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 8rem;
+    padding-top: 10rem;
     position: relative;
     overflow: hidden;
     background: radial-gradient(ellipse at center, #111111 0%, #000000 100%);
@@ -368,8 +368,9 @@ img {
 }
 
 .hero-title {
+    margin-top: 4rem;
     font-size: 6.4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.1;
     overflow: hidden;
     color: var(--white);
@@ -377,7 +378,7 @@ img {
 }
 
 .hero-subtitle {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 400;
     margin-bottom: 2rem;
     color: var(--primary-color);
